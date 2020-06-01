@@ -42,7 +42,7 @@ jobs:
     name: Build release
 
     runs-on: ${{ matrix.os }}
-    needs: create_release
+    needs: createrelease
     strategy:
       matrix:
         build: [linux, macos, windows]
