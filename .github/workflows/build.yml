@@ -12,6 +12,7 @@ jobs:
     strategy:
       matrix:
         target:
+          # https://github.com/rust-embedded/cross#supported-targets
           - armv7-unknown-linux-gnueabihf
           - i686-unknown-linux-musl
           - x86_64-pc-windows-gnu
